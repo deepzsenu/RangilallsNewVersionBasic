@@ -1,0 +1,11 @@
+/* This file contains the basic styles of RangiLalls each and every class contains the things  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.checking-the-things {
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
