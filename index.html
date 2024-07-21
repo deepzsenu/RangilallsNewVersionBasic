@@ -1,21 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet"> -->
     <title>Document</title>
-</head>
-<body>
-    <div class="checking-the-things">
-        Hello Rangilalls
-        <p>We welcome you here! </p>
-        <p>welcome to rangilalls and just wait ir for the upliftment of the things that are not required
-        </p>
-
-        
-    <p></p>
+  </head>
+  <body>
+    <div class="rangilalls-header-dots">
+      <span class="rangilalls-header-dot" onclick="currentSlide(1)"></span>
+      <span class="rangilalls-header-dot" onclick="currentSlide(2)"></span>
+      <span class="rangilalls-header-dot" onclick="currentSlide(3)"></span>
     </div>
-</body>
-</html>
 
+    <div class="ragilalls-header-nav">
+      <img
+        src="./assets/images/Rangi-Lalls-logo-V3.svg"
+        alt="Rangi Lalls"
+        class="rangilalls-header-logo-main"
+      />
+      <nav class="rangilalls-header-main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Forthcoming</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </nav>
+      <div class="rangilalls-header-contact">
+        <span><i class="fa-solid fa-phone"></i> : +91-9310367526</span>
+        <span
+          ><i class="fa-regular fa-envelope"></i> :
+          rangilallsauction@gmail.com</span
+        >
+      </div>
+    </div>
+
+    <header class="rangilalls-header-container">
+      <div class="rangilalls-header-logo">
+        <img
+          src="./assets/images/roadMinistry.jpg"
+          alt="Ministry of Road Transport and Highways"
+        />
+      </div>
+      <div class="rangilalls-header-slide-container">
+        <div class="rangilalls-header-slides">
+          <img src="./assets/images/image2.jpg" alt="Image 1" />
+        </div>
+        <div class="rangilalls-header-slides">
+          <img src="./assets/images/image1.jpg" alt="Image 2" />
+        </div>
+        <div class="rangilalls-header-slides">
+          <img src="./assets/images/image3.jpg" alt="Image 3" />
+        </div>
+      </div>
+      <img
+        src="./assets/images/rangilalls.svg"
+        alt="MSTC"
+        class="rangilalls-header-logo"
+      />
+    </header>
+    <div class="rangilalls-header-banner">Welcome to Rangi Lall's ELV Scrapping Portal</div>
+
+    <!-- 
+      Header Compeleted
+       -->
+
+    <div class="rangilalls-hero-section-container">
+      <div class="rangilalls-hero-section-notice">
+        <h2>Notice</h2>
+        <p>
+          Pre Bid EMD money will be accepted by Rangi Lalls only one day prior
+          to date of Auction and not on day of Auction under any circumstances.
+        </p>
+        <p>
+          Please click on the <a href="#">Forthcoming</a> page to see all
+          upcoming auctions.
+        </p>
+      </div>
+      <div class="rangilalls-hero-section-login">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+
+          <button type="submit">Login</button>
+        </form>
+        <div class="links">
+          <a href="#">Forgot Password</a>
+          <a href="#">Register Here</a>
+        </div>
+      </div>
+    </div>
+    <!-- How we works -->
+    <div class="rangilalls-elv-rewire-section">
+      <h2>How <span class="rangilalls-elv-rewire-logo">ELV</span> Works</h2>
+    </div>
+
+    <div class="rangilalls-elv-how-it-works">
+        <div class="rangilalls-elv-feature">
+            <img src="./assets/images/how/onlinePriceCheck.gif" alt="Online Price Check">
+            <h3>Online Price Check</h3>
+            <p>Get Instant Price</p>
+        </div>
+        <div class="rangilalls-elv-feature">
+            <img src="./assets/images/how/vehicleEvaluation.gif" alt="Vehicle Evaluation">
+            <h3>Vehicle Evaluation</h3>
+            <p>Free Doorstep Evaluation</p>
+        </div>
+        <div class="rangilalls-elv-feature">
+            <img src="./assets/images/how/deregistration.gif" alt="Deregistration">
+            <h3>Deregistration</h3>
+            <p>Compliant with Govt. Policy</p>
+        </div>
+        <div class="rangilalls-elv-feature">
+            <img src="./assets/images/how/paymentpicup.gif" alt="Payment & Pick-Up">
+            <h3>Payment & Pick-Up</h3>
+            <p>Instant Payment & Free Pick-Up</p>
+        </div>
+        <div class="rangilalls-elv-feature">
+            <img src="./assets/images/how/Depollutioning & Dismantling.gif" alt="Depollutioning & Dismantling">
+            <h3>Depollutioning & Dismantling</h3>
+            <p>Compliant with Vehicle Scrappage Policy</p>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/187a0b463d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

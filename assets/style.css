@@ -3,9 +3,345 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.checking-the-things {
-  font-size: 45px;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
+
+.rangilalls-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rangilalls-header-logo {
+  height: 100px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rangilalls-header-logo img{
+  width: 150px;
+}
+.rangilalls-header-slide-container {
+  position: relative;
+  width: 80%;
+  max-width: 1200px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.rangilalls-header-slides {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+.rangilalls-header-slides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rangilalls-header-dots {
+  text-align: center;
+  padding-top: 10px;
+  display: none;
+}
+
+.rangilalls-header-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.rangilalls-header-dot.active {
+  background-color: #717171;
+}
+
+.rangilalls-header-banner {
+  background: linear-gradient(to bottom,#000080 , #d80000);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  height: 70px; /* Adjust to 80px if required */
+  font-weight: 700 !important;
+  text-align: center !important;
+  font-family:  "Open Sans", sans-serif;
+}
+.ragilalls-header-nav{
+  background-color: #d80000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rangilalls-header-logo-main {
+  /* display: block; */
+  height: 50px;
+  width: 15%;
+  margin: 10px auto;
+  margin-left: 40px;
+
+}
+
+.rangilalls-header-main-nav {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rangilalls-header-main-nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.rangilalls-header-main-nav ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.rangilalls-header-main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rangilalls-header-main-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.rangilalls-header-contact {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.phone-icon::before, .email-icon::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-size: contain;
+}
+
+.phone-icon::before {
+  background-image: url('phone_icon_placeholder.png');
+}
+
+.email-icon::before {
+  background-image: url('email_icon_placeholder.png');
+}
+
+.rangilalls-hero-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #d80000;
+}
+
+.rangilalls-hero-section-notice {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  width: 65%;
+  max-width: 800px;
+  height: 350px;
+  text-align: center;
+  font-weight: 700 !important;
+}
+
+.rangilalls-hero-section-notice h2 {
+  margin-bottom: 20px;
+  margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #717171;
+    padding-bottom: 10px;
+}
+
+.rangilalls-hero-section-notice p {
+  margin-bottom: 5px;
+  padding:  0 20px;
+}
+
+.rangilalls-hero-section-notice a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.rangilalls-hero-section-login {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  width: 35%;
+  max-width: 400px;
+  height: 350px;
+  text-align: center;
+}
+
+.rangilalls-hero-section-login h2 {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.rangilalls-hero-section-login h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: orange;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.rangilalls-hero-section-login label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rangilalls-hero-section-login input[type="text"], .rangilalls-hero-section-login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rangilalls-hero-section-login button {
+  width: 100%;
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rangilalls-hero-section-login button:hover {
+  background-color: #0056b3;
+}
+
+.rangilalls-hero-section-login .links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.rangilalls-hero-section-login .links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.rangilalls-hero-section-login .links a:hover {
+  text-decoration: underline;
+}
+
+/* Rewire works */
+
+.rangilalls-elv-rewire-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+}
+
+.rangilalls-elv-rewire-section h2 {
+  font-size: 42px;
+  font-weight:700;
+}
+
+.rangilalls-elv-rewire-logo {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  position: relative;
+  /* display: inline-block; */
+}
+
+.rangilalls-elv-rewire-logo::before,
+.rangilalls-elv-rewire-logo::after {
+  /* content: 'REWIRE'; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.rangilalls-elv-rewire-logo::before {
+  content: '';
+  background: url('rewire-logo.png') no-repeat center;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+
+.rangilalls-elv-how-it-works {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+}
+
+.rangilalls-elv-feature {
+  flex: 1;
+  max-width: 150px;
+  margin: 0 10px;
+}
+
+.rangilalls-elv-feature img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.rangilalls-elv-feature h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  height: 40px; /* Ensuring all headings have the same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rangilalls-elv-feature p {
+  font-size: 14px;
+  color: #666;
 }
