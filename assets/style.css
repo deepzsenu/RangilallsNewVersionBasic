@@ -5,7 +5,9 @@
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
+/* ==============================================
+==============Rangialls RVSF Header==============
+================================================= */
 .rangilalls-header-container {
   display: flex;
   justify-content: space-between;
@@ -79,6 +81,10 @@
   text-align: center !important;
   font-family:  "Open Sans", sans-serif;
 }
+
+/* ==================================================
+============= Rangilalls header Nav==================
+===================================================== */
 .ragilalls-header-nav{
   background-color: #D12B3F;
   display: flex;
@@ -151,6 +157,10 @@
   background-image: url('email_icon_placeholder.png');
 }
 
+
+/* ========================================
+==========Notice and Form Section =========
+=========================================== */
 .rangilalls-hero-section-container {
   display: flex;
   justify-content: center;
@@ -267,7 +277,9 @@
   text-decoration: underline;
 }
 
-/* Rewire works */
+/* ============================================
+===============Rangilalls rvsf  works==========
+=============================================== */
 
 .rangilalls-elv-rewire-section {
   display: flex;
@@ -369,7 +381,9 @@
 
 
 
-/* Footer */
+/*===========================================
+======================= Footer===============
+============================================= */
 
 .rangilalls-elv-footer {
   background-color: #D12B3F;
