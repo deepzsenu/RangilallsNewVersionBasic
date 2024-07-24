@@ -77,7 +77,7 @@
 
 .rangilalls-header-banner {
   background: linear-gradient(to bottom,#FFC20E , #FFC20E);
-  color: #a51828;
+  color: #bd1b2e;
   text-align: center;
   padding: 20px;
   font-size: 28px;
@@ -462,12 +462,12 @@
   text-align: center;
 }
 .rangilalls-elv-footer-servertime{
-  width: 35%;
-  padding-left: 200px;
+  width: 45%;
+  padding-left: 10px;
 }
 .rangilalls-elv-footer-copyright{
-  width: 35%;
-  padding-left: 200px;
+  width: 25%;
+  padding-left: 100px;
 }
 .rangilalls-elv-social-icons {
   width: 50%;
