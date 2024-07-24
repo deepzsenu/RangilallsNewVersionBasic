@@ -15,7 +15,9 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.rangilalls-header-logo p{
+  font-size: 13px;
+}
 .rangilalls-header-logo {
   height: 100px;
   width: 20%;
@@ -83,7 +85,7 @@
   font-weight: 700 !important;
   text-align: center !important;
   font-family:  "Open Sans", sans-serif;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); 
+  text-shadow: 1px 1px 2px #D12B3F; 
 }
 
 /* ==================================================
