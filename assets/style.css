@@ -20,6 +20,7 @@
   height: 100px;
   width: 20%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -74,14 +75,15 @@
 
 .rangilalls-header-banner {
   background: linear-gradient(to bottom,#FFC20E , #FFC20E);
-  color: #D12B3F;
+  color: #a51828;
   text-align: center;
   padding: 20px;
-  font-size: 24px;
+  font-size: 28px;
   height: 70px; /* Adjust to 80px if required */
   font-weight: 700 !important;
   text-align: center !important;
   font-family:  "Open Sans", sans-serif;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); 
 }
 
 /* ==================================================
@@ -95,6 +97,8 @@
 }
 .rangilalls-header-logo-main {
   /* display: block; */
+  
+
   height: 50px;
   width: 15%;
   margin: 10px auto;
@@ -435,7 +439,7 @@
 
 .rangilalls-elv-gradient-footer {
   background: linear-gradient(to bottom,#FFC20E , #FFC20E  );
-  color: #D12B3F;
+  color: #a51828;
   padding: 10px 20px;
   margin-top: auto;
   width: 100%;
@@ -474,7 +478,7 @@
 
 .rangilalls-elv-social-icons a {
   /* display: inline-block; */
-  color: #D12B3F;
+  color: #a51828;
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 25px;

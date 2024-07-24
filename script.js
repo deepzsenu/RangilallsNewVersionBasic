@@ -34,6 +34,8 @@ function currentSlide(n) {
  *
  * @returns {void} This function does not return a value.
  */
+
+
 document
   .querySelectorAll(".rangilalls-rvsf-landing-faqs-accordion")
   .forEach((accordion) => {
