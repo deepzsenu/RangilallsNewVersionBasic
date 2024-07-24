@@ -73,8 +73,8 @@
 }
 
 .rangilalls-header-banner {
-  background: linear-gradient(to bottom,#000080 , #D12B3F);
-  color: white;
+  background: linear-gradient(to bottom,#FFC20E , #FFC20E);
+  color: #D12B3F;
   text-align: center;
   padding: 20px;
   font-size: 24px;
@@ -434,8 +434,8 @@
 }
 
 .rangilalls-elv-gradient-footer {
-  background: linear-gradient(to bottom, #D12B3F, #000080 );
-  color: white;
+  background: linear-gradient(to bottom,#FFC20E , #FFC20E  );
+  color: #D12B3F;
   padding: 10px 20px;
   margin-top: auto;
   width: 100%;
@@ -447,6 +447,8 @@
   align-items: center;
   text-align: center;
   width: 100%;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .rangilalls-elv-footer-content-bottom span {
@@ -455,9 +457,11 @@
 }
 .rangilalls-elv-footer-servertime{
   width: 35%;
+  padding-left: 200px;
 }
 .rangilalls-elv-footer-copyright{
   width: 35%;
+  padding-left: 200px;
 }
 .rangilalls-elv-social-icons {
   width: 50%;
@@ -470,11 +474,11 @@
 
 .rangilalls-elv-social-icons a {
   /* display: inline-block; */
-  color: white;
+  color: #D12B3F;
   text-decoration: none;
   transition: color 0.3s ease;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 .rangilalls-elv-social-icons img {
@@ -596,7 +600,7 @@
   align-items: center;
   justify-content: center;
   height: 150px;
-  background: linear-gradient(90deg, #D12B3F, #ec5264, #1e88e5);
+  background: linear-gradient(90deg, #D12B3F, #ec5264 , #FFC20E);
   color: #fff;
 }
 
