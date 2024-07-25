@@ -97,12 +97,18 @@
   justify-content: center;
   align-items: center;
 }
+.rangilalls-header-logo-main-anchor-tag{
+  text-decoration: none;
+  width: auto;
+  height: 100%;
+}
+
 .rangilalls-header-logo-main {
   /* display: block; */
   
 
-  height: 50px;
-  width: 15%;
+  height: 60px;
+  width: 100%;
   margin: 10px auto;
   margin-left: 40px;
 
@@ -113,6 +119,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.rangilalls-header-contact span a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  
 }
 
 .rangilalls-header-main-nav ul {
@@ -164,6 +176,7 @@
 .email-icon::before {
   background-image: url('email_icon_placeholder.png');
 }
+
 
 
 /* ========================================
